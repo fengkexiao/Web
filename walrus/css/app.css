@@ -1,0 +1,411 @@
+@charset "utf-8";
+html {
+    font-size: 16px;
+    letter-spacing: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei", "Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.clearfid{ display: block; clear: both; position: relative}
+.clearfid:after{ display: block; content: ''; clear: both}
+.pad_lr_30 {padding-left: 30px;padding-right: 30px;}
+.pro_wid {width: 1045px;}
+.col_4657{color:#ff4567;text-decoration:none;}
+.navbar{padding:25px 0;line-height:114px;width:auto;height:114px;z-index: 400;position:relative;left: 0;top: 0;border-bottom: #e0e0e0 solid 1px;background: #FFF;}
+.center{position:relative;padding:0 30px;margin:0 auto;width: 1045px;height: 63px;}
+.center-left{float: left;}
+.center-right-list{float: right;width: 488px;height: 55px;}
+.center-right-list li{float: left;line-height: 55px;margin-left: 40px;}
+.center-right-list li a{color: #848484;text-decoration: none;font-size: 18px;}
+.center-right-list li a:hover{color: #ff4567;}
+.content{position:relative;height: 600px;background: #f13d4d;background: -moz-linear-gradient(top, #f13d4d, #f96151);background: -webkit-linear-gradient(top, #f13d4d, #f96151);min-width: 1046px;left: 0px;top: 100px;z-index: 50;}
+
+.flo {position: relative;float: left;box-sizing: border-box;}
+.overline {position: relative;width: 100%;}
+.mag{margin: 0 auto;position: relative;width: 1045px;height: 600px;overflow: hidden;}
+.banner{position: absolute;top: 180px;left: 30px;background: url("../images/kouhao.png");width: 380px;height: 115px;background-size: 100% 100%;}
+.banner-app{position: absolute;bottom: -5px;right: -70px;}
+.dropdown-btn{position: absolute; bottom: 115px; left: 30px;}
+.dropdown-btn a{text-decoration: none;}
+.btn_down_client {width: 210px;text-indent: 35px;background: url('../images/anniujiantou.png') #fff no-repeat 167px 23px;height: 68px;color: #585858;line-height: 68px;vertical-align: middle;font-size: 23px;border-radius: 10px;}
+.mag-wid{height: 515px;}
+.sr{width: 1045px;margin: 0 auto;padding-top: 70px;padding-bottom: 90px;}
+.fs_42 {font-size: 42px;color: #585858;line-height: 100px;text-align: center;}
+.fs_42 span{color: #ff4567;}
+
+.why_choice li.block {
+    width: 240px;
+    text-align: center;
+}
+.list li {
+    position: relative;
+    float: left;
+}
+.why_choice li.icos {
+    width: 95px;
+    text-align: center;
+}
+.why_choice li.icos .ico_con {
+    line-height: 80px;
+}
+.hv_ind_img_plus {
+    background: url("../images/jia.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: 22px 22px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.pad_tb_25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.hv_ind_img_shouyi {
+    background: url('../images/shouyi.png') no-repeat;
+    background-size: 100% 100%;
+}
+.hv_ind_img_anquan {
+    background: url('../images/anquan.png') no-repeat;
+    background-size: 100% 100%;
+}
+.hv_ind_img_cunqu {
+    background: url("../images/cunqu.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.hv_ind_list {
+    width: 84px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+.mag_center {
+    margin: 0 auto;
+}
+.hx_newline h3 {
+    font-size: 22px;
+    color: #585858;
+    padding: 10px 0px 20px 0px;
+}
+.hx_newline p {
+    color: #585858;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.vk_loads {
+    width: 265px;
+    height: 532px;
+    background: url('../images/iphone.png') no-repeat center top;
+    padding: 62px 0px 0px 17px;
+}
+.btn_lr_slide {
+    width: 24px;
+    height: 42px;
+    position: absolute;
+    top: 230px;
+    cursor: pointer;
+}
+.btn_lr_slide_left {
+    background: url('../images/zuojiantou.png');
+    left: -50px;
+}
+.btn_lr_slide_left:hover {
+    background: url('../images/zuojiantou-1.png');
+    left: -50px;
+}
+.btn_lr_slide_right {
+    background: url('../images/youjiantou.png');
+    right: -55px;
+}
+.btn_lr_slide_right:hover {
+    background: url('../images/youjiantou-1.png');
+    right: -55px;
+}
+
+.ind_cont_banner_slide img {
+    display: block;
+    width: 230px;
+    height: 408px;
+    position: relative;
+    float: left;
+}
+.flo_r {
+    position: relative;
+    float: right;
+}
+.quote_title {
+    font-size: 48px;
+    color: #585858;
+    width: 100%;
+    line-height: 60px;
+}
+.ind_cont {
+    color: #585858;
+    padding-top: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom:30px;
+}
+.more_banner_ico li {
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+    background-size: 100% 100%;
+}
+
+.profit_ico1 {
+    background: url("../images/01-01.png");
+    background-size: 100% 100%;
+}
+.profit_ico2 {
+    background: url("../images/01-02.png");
+    background-size: 100% 100%;
+}
+.profit_ico3 {
+    background: url("../images/01-03.png");
+    background-size: 100% 100%;
+}
+.profit_ico4 {
+    background: url("../images/01-04.png");
+    background-size: 100% 100%;
+}
+
+.ico_10yi {
+    width: 68px;
+    height: 68px;
+    background: url("../images/10yi.png");
+    background-size: 100% 100%;
+}
+.zg_imglist .icos {
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 67px;
+    height: 55px;
+}
+.ico_3_1 {
+    background: url("../images/03-01.png");
+    background-size: 100% 100%;
+}
+.ico_3_2{
+    background: url("../images/03-02.png");
+    background-size: 100% 100%;
+}
+
+
+.app_down_btns li {
+    color: #848484;
+    font-family: sans-serif;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    width: 150px;
+}
+.vb_iphone {
+    background: url("../images/IOS.png") no-repeat;
+    background-size: auto 100%;
+}
+element.style {
+}
+.app_down_btns li {
+    color: #848484;
+    font-family: sans-serif;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    width: 150px;
+}
+.vb_wap {
+    background: url("../images/wap.png") no-repeat;
+    background-size: auto 100%;
+}
+element.style {
+}
+.app_down_btns li {
+    color: #848484;
+    font-family: sans-serif;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    width: 150px;
+}
+.vb_android {
+    background: url("../images/anzhuo.png") no-repeat;
+    background-size: auto 100%;
+}
+element.style {
+}
+.app_down_btns li {
+    color: #848484;
+    font-family: sans-serif;
+    float: left;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    width: 150px;
+}
+.vb_watch {
+    background: url("../images/shoubiao.png") no-repeat;
+    background-size: auto 100%;
+}
+
+
+.slide_menu {
+    position: fixed;
+    left: 50%;
+    margin-left: 543px;
+    top: 265px;
+    width: 70px;
+    z-index: 420;
+    text-align: center;
+}
+.slide_menu li {
+    padding-bottom: 20px;
+    width: 100%;
+}
+.slide_menu li  a{color:#ccc;text-decoration:none;}
+.slide_menu li .slide_ico {
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 44px;
+    background-size: auto 100%;
+}
+.slide_ico_up {
+    background: url("../images/zhiding@2x.png");
+    background-size: 100% 100%;
+}
+.slide_ico_tel {
+    background: url("../images/lianxi@2x.png");
+    background-size: 100% 100%;
+}
+.slide_ico_down {
+    background: url("../images/xiazai@2x.png");
+    background-size: 100% 100%;
+}
+.slide_ico_wx {
+    background: url("../images/kefu@2x.png");
+    background-size: 100% 100%;
+}
+
+/*women-style*/
+.bg_f9 {
+    background: #F9F9F9;
+}
+.down_btn_ios {
+    background: url("../images/iosxiazai.png");
+}
+.down_btn_android {
+    background: url("../images/anzhaoxiazai.png");
+}
+.app_down a {
+    display: inline-block;
+    padding: 0px 25px;
+}
+.down_btns {
+    width: 202px;
+    height: 52px;
+    position: relative;
+    float: left;
+    background-size: 100% 100%;
+}
+/*anquan-style*/
+.page_safe_list li {
+    width: 100%;
+    position: relative;
+    padding: 70px 0px;
+}
+.safe_cont_block {
+    color: #585858;
+}
+.safe_cont_block div {
+    font-size: 16px;
+    line-height: 25px;
+}
+.safe_bg1_ico1 {
+    background: url("../images/sky1.png");
+    top: 22px;
+    right: 56px;
+    width: 368px;
+    height: 350px;
+    background-size: 100% 100%;
+}
+
+.safe_bg_ico2 {
+    background: url("../images/icon.png") no-repeat;
+    width: 290px;
+    height: 316px;
+    background-size: auto 100%;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.pos_ab {
+    position: absolute;
+}
+.safe_bg_ico3 {
+    right: 10px;
+    top: -30px;
+    width: 450px;
+    height: 410px;
+    background-size: 100% 100%;background-position: 575px 40px;
+}
+.safe_bg_ico3 {
+    background: url("../images/safe_cont_ico1.png") no-repeat;
+}
+.safe_bg_ico4 {
+    width: 410px;
+    height: 406px;
+    margin-left: 20px;
+    top: 0px;
+    background: url("../images/safe_cont_ico4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.safe_bg_ico4 {
+    background: url("../images/safe_cont_ico4.png") no-repeat;
+    background-position: 0px 40px;
+    background-size: auto 100%;
+}
+
+/*help-style*/
+.list_helpcenter {
+    color: #585858;
+}
+.list_helpcenter li {
+    border-bottom: #c1c1c1 solid 1px;
+    width: 100%;
+    cursor: pointer;
+}
+.list_helpcenter h2 {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.list_helpcenter div {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    display: none;
+}
+.ico_up {
+    transition: All 0.5s ease-in-out;
+    transform: rotate(0deg);
+    background: url("../images/ico_down_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.ico_up_down {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 20px;
+    height: 20px;
+}
